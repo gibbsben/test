@@ -11,27 +11,21 @@ function Footer() {
         
         
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <a href ='https://www.instagram.com/homelessprojectmaastricht/'>Instagram</a>
+            <h2>Contact Us </h2>
+            <a href ='https://www.instagram.com/homelessprojectmaastricht/'>Instagram <i class="fa fa-instagram" aria-hidden="true"></i>
+</a>
            
 
-            <a href='https://www.facebook.com/homelessprojectmaastricht'> Facebook     </a>
-            
-          
+            <a href='https://www.facebook.com/homelessprojectmaastricht'> Facebook <i class="fab fa-facebook"></i>    </a>
+      
+        <a>homelessprojectmaastricht@gmail.com <i class="far fa-envelope"></i></a>
+           
             <small class='website-rights'>HPM © 2020</small>
         </div>
         
         </div>
       </div>
-      <section class='social-media'>
-        {/* <div classname='social-icons'>
-      
-        </div> */}
-      
-        <div class='social-media-wrap'>
-        <h5>Email: homelessprojectmaastricht@gmail.com</h5>
-                 </div>
-      </section>
+ 
     </div>
   );
 }

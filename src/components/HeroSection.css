@@ -1,6 +1,6 @@
 .hero-container {
-  background: url('https://i.imgur.com/DKyDJpe.jpg') center center/cover no-repeat;
-  height:70vw;
+  background: url('https://i.imgur.com/2ptTZ1W.jpg') center center/cover no-repeat;
+  height:40vw;
   width: 100%;
   display:grid;
   flex-direction: column;
@@ -11,9 +11,25 @@
 }
 
 .hero-container h1 {
-font-size: small;
+font-size: x-large;
 color: white;
 background-color: inherit;
+position:absolute;
+top: 10%;
+left: 60%;
+  }
 
-}
+.hero-container h2 {
+  font-size: x-large;
+  color: white;
+  background-color: inherit;
+  position:absolute;
+top: 15rem;
+left: 60%;
+width: 29rem;
+}  
+
+  .changebkg {
+    background: transparent;
+  }
 
